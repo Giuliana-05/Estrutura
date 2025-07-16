@@ -16,6 +16,20 @@ O sistema permite:
 
 ---
 
+## 🧩 Problema e Justificativa
+
+**Como gerenciar atendimentos hospitalares de forma eficiente, garantindo que pacientes prioritários sejam atendidos antes dos comuns, sem comprometer a ordem de chegada e permitindo correções em caso de erros?**
+
+Esse sistema foi desenvolvido para simular uma solução prática e educacional para esse problema, utilizando estruturas de dados adequadas:
+
+- **Heap** para gerenciar automaticamente a fila de pacientes prioritários por nível de urgência.
+- **Fila** para manter a ordem de chegada dos pacientes comuns.
+- **Pilha** para registrar os atendimentos e permitir desfazê-los se necessário.
+
+A escolha dessas estruturas se justifica pela necessidade de **eficiência, organização e flexibilidade** em um ambiente crítico como o hospitalar. Além disso, o projeto promove o aprendizado prático de conceitos fundamentais de estrutura de dados, alinhando teoria e aplicação real.
+
+---
+
 ## 🏗️ Arquitetura
 
 ### Estruturas de Dados:
